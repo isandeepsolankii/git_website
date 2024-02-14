@@ -1,0 +1,54 @@
+/* todo: delete file if not needed */
+.project_details {
+  text-align: left;
+}
+
+.project_container {
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
+.see_more {
+  text-decoration: none;
+  color: #01352c;
+  font-family: "Lexend", sans-serif;
+}
+
+.project_name {
+  color: #01352c;
+  font-family: "Lexend", sans-serif;
+  font-size: 24px;
+}
+
+.project_image {
+  border-radius: 10px;
+}
+
+.github_link {
+  padding: 10px;
+  font-family: "Lexend", sans-serif;
+  color: #01352c;
+  text-decoration: none;
+  background-color: aliceblue;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.source_link {
+  margin-bottom: 30px;
+}
+
+.git_image {
+  width: 5%;
+}
+
+.hr_line {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .project_container {
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,80 @@
+/* todo: delete file if not needed */
+.personal_about_container {
+  text-align: left;
+}
+
+.hello_text {
+  color: #01352c;
+  font-family: "Lexend", sans-serif;
+  font-size: 14px;
+}
+
+.name_info {
+  color: #01352c;
+  font-family: "Leckerli One", regular;
+  font-size: 40px;
+}
+
+.personal_about {
+  color: #01352c;
+  font-family: "KoHo", sans-serif;
+  font-size: 20px;
+}
+.about_img {
+  width: 350px;
+  margin-left: 100px;
+  border: 10px solid #01352c;
+  border-radius: 50%;
+  transform: rotate(3deg);
+}
+
+.about_info {
+  color: #01352c;
+  font-family: "Leckerli One", cursive;
+  font-size: 40px;
+  margin-left: 40px;
+  margin-top: -34px;
+  text-align: left;
+}
+
+.line {
+  background-color: #01352c;
+  width: 100%;
+  height: 3px;
+}
+
+.about_row {
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
+.work_history_container {
+  margin-left: 40px;
+  margin-bottom: 100px;
+  color: #01352c;
+}
+
+.nav_font {
+  font-family: "Lalezar", cursive;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .about_info {
+    color: #01352c;
+    font-family: "Leckerli One", cursive;
+    font-size: 40px;
+    margin-left: 0px;
+    margin-top: -34px;
+  }
+  .line {
+    margin-bottom: 20px;
+  }
+  .about_img {
+    margin-left: 50px;
+  }
+  .about_row {
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+}

@@ -1,0 +1,13 @@
+/* todo: delete file if not needed */
+.social_media {
+  display: inline;
+}
+.social_containeer {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.icon_name {
+  text-decoration: none;
+  color: #01352c;
+  font-family: "Lexend", sans-serif;
+}

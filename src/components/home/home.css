@@ -1,0 +1,140 @@
+/* todo: delete file if not needed */
+body {
+  background-color: #e1eacd;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.git_website {
+  position: absolute;
+}
+
+.nav-bar-contaioner {
+  position: relative;
+}
+.eclipse_container {
+  position: relative;
+  left: 128px;
+}
+
+/*Home CSS*/
+.home_container {
+  text-align: left;
+  margin-left: 150px;
+  margin-top: 70px;
+}
+
+.greeting {
+  font-family: "Lalezar", regular;
+  font-size: 64px;
+  color: #01352c;
+  margin-bottom: 0;
+}
+
+.my-name {
+  font-family: "Leckerli One", cursive;
+  font-size: 64px;
+  color: #01352c;
+  margin-bottom: 0;
+}
+
+.designation {
+  font-family: "Lalezar", regular;
+  font-size: 55px;
+  color: #01352c;
+  margin-bottom: 0;
+}
+
+.my-info {
+  font-family: "KoHo", sans-serif;
+  color: #01352c;
+  font-size: 18px;
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.red-button {
+  background-color: #ff001a;
+  width: 214px;
+  height: 54px;
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: "Lalezar", regular;
+}
+
+.social_icon {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.about_conatinerer {
+  margin-top: 70px;
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.dp {
+  position: relative;
+}
+
+.circle {
+  background-color: #01352c;
+  width: 503px;
+  height: 503px;
+  border-radius: 50%;
+  position: absolute;
+  right: 100px;
+}
+
+.circle2 {
+  background-color: #bad8b6;
+  width: 205px;
+  height: 205px;
+  border-radius: 50%;
+  position: absolute;
+  right: 30px;
+}
+.circle3 {
+  background-color: #bad8b6;
+  width: 94px;
+  height: 94px;
+  border-radius: 50%;
+  position: absolute;
+  right: 300px;
+  top: 210px;
+}
+
+@media only screen and (max-width: 700px) {
+  .home_container {
+    margin-left: 0px;
+  }
+  .about_conatinerer {
+    margin-left: 0px;
+  }
+  .circle {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .dp {
+    display: none;
+  }
+  .circle {
+    display: none;
+  }
+  .circle2 {
+    display: none;
+  }
+  .circle3 {
+    display: none;
+  }
+}

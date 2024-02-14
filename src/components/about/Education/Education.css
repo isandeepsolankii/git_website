@@ -1,0 +1,29 @@
+/* todo: delete file if not needed */
+.college_name {
+  color: #01352c;
+  font-family: "Lexend", sans-serif;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.edu_date {
+  font-family: "Lexend", sans-serif;
+  color: #01352c;
+  font-size: 16px;
+}
+
+.relavant_course {
+  list-style: none;
+  position: relative;
+  left: 50px;
+}
+
+.course_name {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .edu_container {
+    margin-left: -50px;
+  }
+}
